@@ -80,9 +80,9 @@ const Footer = () => {
                 <Link to="/faq" className="hover:text-[#D4AF37] transition flex items-center gap-2 group">
                   <FaArrowRight size={10} className="opacity-0 group-hover:opacity-100 transition" /> FAQs
                 </Link>
-              </li>
+              </li>     
               <li>
-                <Link to="/privacy-policy" className="hover:text-[#D4AF37] transition flex items-center gap-2 group">
+                <Link to="/privacypolicy" className="hover:text-[#D4AF37] transition flex items-center gap-2 group">
                   <FaArrowRight size={10} className="opacity-0 group-hover:opacity-100 transition" /> Privacy Policy
                 </Link>
               </li>

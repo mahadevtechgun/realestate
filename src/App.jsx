@@ -20,6 +20,7 @@ import Login from "./components/auth/Login";
 import { getWishlistApi } from "./api/wishlistApi";
 import { setWishlist } from "./redux/wishlistSlice";
 import Faq from "./pages/Faq";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   const dispatch = useDispatch();
@@ -74,7 +75,8 @@ function App() {
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/agents" element={<Agents />} /> 
         <Route path="/wishlist" element={<Wishlist />} />
-        <Route path="/faq" element={<Faq />} />  
+        <Route path="/privacypolicy" element={<PrivacyPolicy/>} /> 
+           <Route path="/faq" element={<Faq />} />  
         <Route path="*" element={<NotFound />} />
       </Routes>
       
