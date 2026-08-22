@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+/* ===== ANIMATIONS ===== */
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.animate-fade-up-delay-1 {
+  animation: fadeInUp 0.8s ease 0.2s forwards;
+  opacity: 0;
+}
+
+.animate-fade-up-delay-2 {
+  animation: fadeInUp 0.8s ease 0.4s forwards;
+  opacity: 0;
+}
+
+@keyframes zoom {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.05); }
+}
+
+@keyframes scrollDown {
+  0%, 100% { transform: translateY(0); opacity: 1; }
+  50% { transform: translateY(6px); opacity: 0.3; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-bounce {
+  animation: bounce 2s infinite;
+}
+
+
+/* ===== CUSTOM COLORS (CSS Variables) ===== */
+
+:root {
+  --gold: #D4AF37;
+  --darkgold: #B8860B;
+  --cardbg: #171B22;
+  --darkbg: #0F1115;
+  --whitetext: #F8F8F8;
+  --secondarytext: #A0A0A0;
+}
+
+
+/* ===== CUSTOM TAILWIND CLASSES ===== */
+
+/* Background Colors */
+.bg-darkbg {
+  background-color: var(--darkbg);
+}
+
+.bg-cardbg {
+  background-color: var(--cardbg);
+}
+
+.bg-gold {
+  background-color: var(--gold);
+}
+
+.bg-gold\/10 {
+  background-color: rgba(212, 175, 55, 0.1);
+}
+
+.bg-gold\/20 {
+  background-color: rgba(212, 175, 55, 0.2);
+}
+
+/* Text Colors */
+.text-gold {
+  color: var(--gold);
+}
+
+.text-whitetext {
+  color: var(--whitetext);
+}
+
+.text-secondarytext {
+  color: var(--secondarytext);
+}
+
+/* Border Colors */
+.border-gold {
+  border-color: var(--gold);
+}
+
+.border-gold\/30 {
+  border-color: rgba(212, 175, 55, 0.3);
+}
+
+.border-gold\/50 {
+  border-color: rgba(212, 175, 55, 0.5);
+}
+
+/* Gradient Colors */
+.from-gold {
+  --tw-gradient-from: var(--gold);
+}
+
+.to-darkgold {
+  --tw-gradient-to: var(--darkgold);
+}
+
+.from-whitetext {
+  --tw-gradient-from: var(--whitetext);
+}
+
+.to-secondarytext {
+  --tw-gradient-to: var(--secondarytext);
+}
+
+/* Ring Colors */
+.ring-gold {
+  --tw-ring-color: var(--gold);
+}
+
+.ring-gold\/20 {
+  --tw-ring-color: rgba(212, 175, 55, 0.2);
+}
+
+/* Shadow Colors */
+.shadow-gold\/10 {
+  --tw-shadow-color: rgba(212, 175, 55, 0.1);
+}
+
+.shadow-gold\/20 {
+  --tw-shadow-color: rgba(212, 175, 55, 0.2);
+}
+
+.shadow-gold\/30 {
+  --tw-shadow-color: rgba(212, 175, 55, 0.3);
+}
+
+

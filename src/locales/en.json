@@ -1,0 +1,13 @@
+{
+  "navigation": {
+    "home": "Home",
+    "buy": "Buy",
+    "rent": "Rent",
+    "Sale": "Sale",
+    "agents": "Agents",
+    "contact": "Contact",
+    "signIn": "Sign In",
+    "listProperty": "List Property",
+    "language": "Language"
+  }
+}

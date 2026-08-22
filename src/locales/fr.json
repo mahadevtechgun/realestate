@@ -1,0 +1,13 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "buy": "Acheter",
+    "rent": "Louer",
+    "Sale": "Vendre",
+    "agents": "Agents",
+    "contact": "Contact",
+    "signIn": "Se connecter",
+    "listProperty": "Ajouter un bien",
+    "language": "Langue"
+  }
+}
